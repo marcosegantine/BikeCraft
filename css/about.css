@@ -1,0 +1,44 @@
+/* estilizacao padroes */
+h2 {
+  color: #000;
+}
+
+h2:after {
+  background: #000;
+}
+
+/* estilizacao parte sobre */
+
+.introduction_about {
+  margin-top: 92px;
+  background: url("../img/bg-sobre.jpg") no-repeat center;
+  background-size: cover;
+  height: 160px;
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.introduction_about h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  margin: 5px auto 10px;
+  background-color: #fff;
+}
+
+/* estilizacao parte principal sobre */
+
+.img_equipe {
+  margin-top: 20px;
+}
+
+.principal_sobre {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.historia {
+  padding-right: 50px;
+}
